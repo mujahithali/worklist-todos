@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List</title>
+    <link type="text/css" href="css/list.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="row">
+            <div class="intro col-12">
+                <h1>To-Dos Work List</h1>
+                <div>
+                    <div class="border1"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="helpText col-12">
+                <p id="first">Enter text into the input field to add items to your list.</p>
+                <p id="second">Click the item to mark it as complete.</p>
+                <p id="third">Click the "X" to remove the item from your list.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input id="userInput" type="text" placeholder="New item..." maxlength="27">
+                <button id="enter">
+                    <svg class="fas fa-pencil-alt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" fill="#000000">
+                        <g id="surface407678">
+                            <path style="fill:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:#000000;stroke-opacity:1;stroke-miterlimit:10;" d="M 1.5 5 L 1.5 2.5 C 1.5 1.949219 1.949219 1.5 2.5 1.5 L 12.5 1.5 C 13.050781 1.5 13.5 1.949219 13.5 2.5 L 13.5 12.5 C 13.5 13.050781 13.050781 13.5 12.5 13.5 L 2.5 13.5 C 1.949219 13.5 1.5 13.050781 1.5 12.5 L 1.5 10 M 9.5 7.5 L 0 7.5 " />
+                            <path style="fill:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:#000000;stroke-opacity:1;stroke-miterlimit:10;" d="M 6.375 4.375 L 9.5 7.5 L 6.375 10.625 " />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="listItems col-12">
+                <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+                </ul>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="js/list.js"></script>
+
+    </div>
+
+</body>
+
+</html>
